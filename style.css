@@ -10,6 +10,25 @@ body {
   line-height: 3px;
 }
 
+#sidebar {
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  font-size: 30px;
+  color: white;
+  line-height: 40px;
+}
+
 h1, h2, h3 {
   color: rgb(54,54,54);
   font-family: museo;
@@ -31,14 +50,14 @@ h1, h2, h3 {
   margin-bottom: 1em;
   margin-right: 1em;
   box-shadow: 6px 6px 4px gray;
+  position: relative;
+  left: 0;
 }
 
 .filmimage:hover {
   border: 2px solid #4A0000;
-  width: 17em;
-  margin-left: 130px;
-  transition: width 2000ms;
-  transition: margin-left 2000ms;
+  left: 130px;
+  transition: left 2000ms;
 }
 
 .text-center {
@@ -106,4 +125,18 @@ a:hover {
   transition: color 2000ms;
   color: white;
   text-decoration: none;
+}
+
+#sidebar{
+  background: -moz-linear-gradient(right, #B1B7C5, #000006);
+  border: 2px solid #4A0000;
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content {
+  margin-left: 300px;
 }

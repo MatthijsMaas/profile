@@ -15,38 +15,62 @@
 <body>
 
  <div class="container">
- <div class="card text-center">
+   <div id="sidebar">
 
-    <h1>Matthijs Maas</h1>
-    <img src="images/profilepic.jpeg" id="profilepicture" alt="Matthijs Maas"></img>
-    <h2>Metaxy Index</h2>
-    <p>The revolution will not be televised. And I now get to <strong><em>code</em></strong>
-    </p>
-    <a class="btn-blue" href="https://github.com/Nova-Wintermute">The Die Is Cast</a>
-  </div>
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i><br>info
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-file-video-o"></i><br>movies
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring"></i><br>origin
+          </a>
+        </li>
+      </ul>
 
-  <div class="card text-center">
-  <h2>connect through...</h2>
-    <ul>
-     <li class="socialicons">
-       <a href="https://www.facebook.com/matthijs.maas">
-        <i class="fa fa-facebook tag"></i>
+   </div>
+
+   <div id="page-content">
+     <div class="card text-center">
+     <div id="summary"></div>
+      <h1>Matthijs Maas</h1>
+      <img src="images/profilepic.jpeg" id="profilepicture" alt="Matthijs Maas"></img>
+      <h2>Metaxy Index</h2>
+      <p>The revolution will not be televised. And I now get to <strong><em>code</em></strong>
+      </p>
+      <a class="btn-blue" href="https://github.com/Nova-Wintermute">The Die Is Cast</a>
+    </div>
+
+    <div class="card text-center">
+      <h2>connect through...</h2>
+      <ul>
+       <li class="socialicons">
+         <a href="https://www.facebook.com/matthijs.maas">
+          <i class="fa fa-facebook tag"></i>
+        </a>
+      </li>
+      <li class="socialicons">
+       <a href="https://nl.linkedin.com/in/matthijsmaas">
+        <i class="fa fa-linkedin tag"></i>
       </a>
     </li>
     <li class="socialicons">
-     <a href="https://nl.linkedin.com/in/matthijsmaas">
-      <i class="fa fa-linkedin tag"></i>
+     <a href="https://twitter.com/matthijsmmaas">
+      <i class="fa fa-twitter tag"></i>
     </a>
   </li>
-  <li class="socialicons">
-   <a href="https://twitter.com/matthijsmmaas">
-    <i class="fa fa-twitter tag"></i>
-  </a>
-</li>
 </ul>
 
 </div>
 <div class="card">
+<div id="favorite-movies"></div>
   <h2 class="text-center"> My Favourite Movies</h2>
   <table>
     <tbody>
@@ -83,6 +107,7 @@
 <div class="card text-center">
 
   <h2>Origin</h2>
+  <div id="help"></div>
   This page has been coded during the <a href="http://lewagon.org/program" target="_blank">FullStack program @LeWagon</a>.
   <ul>
     <li class="socialicons">
@@ -101,6 +126,7 @@
      </a>
    </li>
  </ul>
+</div>
 </div>
 </div>
 </body>
